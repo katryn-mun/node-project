@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+  }
+  
+  nav {
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    z-index: 10;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+
+header {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: left;
+    height: 100vh;
+    background-image: url('/images/hollywood.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFb84d; 
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .header-content {
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 400px; 
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .header-subtext {
+    top: 200px;
+    position: relative;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    align-content: center;
+    text-align: center;
+  }
+
+  .header-subtext p{
+    font-size: 3rem;
+    color: rgb(13, 28, 95);
+    text-shadow:#333;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  }
+  
+    main {
+    padding: 2rem 1rem;
+  }
+  
+  section {
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .home, .about, .contact {
+    background: #f4f4f4;
+  }
+  
+  h2 {
+    color: #003366;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  a {
+    color: #FFD700; 
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1.2rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 0.5rem 0;
+    }
+  }
+
+
+.socials ul li{
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.icon{
+    font-size: 2rem;
+    width: 20px;
+    height: 20px;
+}
